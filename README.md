@@ -11,3 +11,5 @@ maniaque : TUI framework (using ncurses)
 2 Developpment branch :
 - stable 😀 : stable version of lune
 - flushed 😳 : chaotic version of lune (use to dev outside my main desktop)
+
+Code libre de toute utilisation même commerciale - Benstitou Sofiane
