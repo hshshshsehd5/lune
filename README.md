@@ -7,5 +7,3 @@ vanille : vanilla lune functions syntaxe
 lunatique : Math librairy made from scratch 
 
 maniaque : TUI framework (using ncurses)
-
-git command test
