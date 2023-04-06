@@ -1,3 +1,11 @@
+int factorial(int n){
+    if (n == 0){
+        return 1;
+    } else {
+        return n*factorial(n-1);
+    }
+}
+
 double powern(double x, int n){
     double result = 1.0;
     for (int i = 0; i < n; i++){
