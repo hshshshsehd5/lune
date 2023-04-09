@@ -22,4 +22,4 @@ Code libre de toute utilisation même commerciale - Benstitou Sofiane
 -> lunatic : powern function
 
 # Abaible features in flushed :
--> lunatic : powern, powerab and factorial function
+-> lunatic : lunabs, factorial powern, powerab and factorial functions.
