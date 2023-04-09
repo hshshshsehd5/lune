@@ -1,7 +1,8 @@
 # lune
 C library with some from scratch functions or smart syntaxes 🧠
+Code free of any use, even commercial - Benstitou Sofiane
 
-**Last update : 06/04/2022 (french date)**
+**Last update : 09/04/2022 (french date)**
 
 # SOON
 vanille : vanilla lune functions syntaxe 
@@ -16,7 +17,7 @@ laine : Website of the documentation
 - **stable** 😀 : stable version of lune
 - **flushed** 😳 : chaotic version of lune (use to dev outside my main desktop)
 
-Code libre de toute utilisation même commerciale - Benstitou Sofiane
+
 
 # Avaible features in stable :
 -> lunatic : powern function
