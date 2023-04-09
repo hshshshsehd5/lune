@@ -1,5 +1,5 @@
 // Développé par Benstitou Sofiane
-// Basics
+// -------- START Basics ----------
 double lunabs(double x){
     if (x < 0){
         return (-1 * x);
@@ -61,4 +61,14 @@ double powerab(double x, int a, int b){ // Using Newton method : https://www.you
         return 1;
     }
 }
-// Basics
+// ----------- END Basics -------------
+
+// --------- START USUAL ----------
+
+double inverse(double x){
+    return 1/x;
+}
+
+double sqrt(double x){
+    return powerab(x,1,2);
+}
