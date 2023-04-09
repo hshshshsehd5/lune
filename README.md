@@ -21,5 +21,5 @@ Code libre de toute utilisation même commerciale - Benstitou Sofiane
 # Avaible features in stable :
 -> lunatic : powern function
 
-# Abaible features in flushed :
+# Avaible features in flushed :
 -> lunatic : lunabs, factorial powern, powerab and factorial functions.
