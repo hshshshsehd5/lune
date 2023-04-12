@@ -72,3 +72,28 @@ double inverse(double x){
 double sqrt(double x){
     return powerab(x,1,2);
 }
+
+double sq(double x){
+    return x*x;
+}
+
+// ----- END USUAL ------
+
+// ----- START CONST ----- 
+
+double exp(double x){ // https://fr.wikipedia.org/wiki/Factorielle
+    double result = 0; 
+    for (int i = 0; i < 20; i++){
+        result += powern(x,i)/limfactorial(i);
+    }
+}
+
+double picalc(int p){
+    double result = 1;
+    for (int i = 1; i < p+1; i++){
+        result *= sq(2*i)/(sq(2*i) - 1);
+    }
+    return 2*result;
+}
+
+// ----- END CONST ------
