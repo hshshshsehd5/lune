@@ -88,7 +88,7 @@ double exp(double x){ // https://fr.wikipedia.org/wiki/Factorielle
     }
 }
 
-double picalc(int p){
+double picalc(int p){ //https://fr.wikipedia.org/wiki/Pi
     double result = 1;
     for (int i = 1; i < p+1; i++){
         result *= sq(2*i)/(sq(2*i) - 1);
@@ -97,3 +97,29 @@ double picalc(int p){
 }
 
 // ----- END CONST ------
+
+// ----- START TRIGONOMETRIC -----
+
+double sin(double x){ // https://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique
+    double result = 0; 
+    for (int i = 0; i < 20 ; i++){
+        result += powern(x,i+1)/limfactorial(2*i + 1);
+    }
+    return result;
+}
+
+double cos(double x){
+    double result = 0; 
+    for (int i = 0; i < 20 ; i++){
+        result += powern(x,i)/limfactorial(2*i);
+    }
+    return result;
+}
+
+double tan(double x){
+    return sin(x)/cos(x);
+}
+
+// ----- END TRIGONOMETRIC -----
+
+//Make sigma and pi function ! (sum and prod)
