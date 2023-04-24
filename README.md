@@ -2,7 +2,7 @@
 C library with some from scratch functions or smart syntaxes 🧠
 Code free of any use, even commercial - Benstitou Sofiane
 
-**Last update : 09/04/2022 (french date)**
+**Last update : 24/04/2022 (french date)**
 
 # SOON
 vanille : vanilla lune functions syntaxe 
@@ -20,7 +20,7 @@ laine : Website of the documentation
 
 
 # Avaible features in stable :
--> lunatic : powern function
+-> lunatic : lunabs, factorial, powern, powerab,factorial, trigonometrics and const functions.
 
 # Avaible features in flushed :
--> lunatic : lunabs, factorial powern, powerab and factorial functions.
+-> lunatic : lunabs, factorial, powern, powerab,factorial, trigonometrics and const functions.
